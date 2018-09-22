@@ -1,0 +1,7 @@
+.DS_Store
+.idea/
+__pycache__/
+cifar-10-batches-py
+cifar-10-batches-py
+coco_captioning
+refer/
