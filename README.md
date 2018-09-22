@@ -1,7 +1,8 @@
 # machine-learning
 
 - 我的机器学习仓库
-- 如果需要正确显示笔记中的数学公式，可能需要安装[Github 数学插件](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima)
+- 如何发现这个仓库中的错误，可以在 Issues 中提出。
+- 安装 [Github 数学插件](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima)，正确显示 MathJax 公式。
 
 ## 《机器学习实战》
 
