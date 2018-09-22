@@ -3,8 +3,6 @@
 - 我的机器学习仓库
 - 如果需要正确显示笔记中的数学公式，可能需要安装[Github 数学插件](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima)
 
-[TOC]
-
 ## 《机器学习实战》
 
 - Python2.6 + Pycharm 
