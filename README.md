@@ -1,8 +1,9 @@
 # machine-learning
 
 - 我的机器学习仓库
-- 如何发现这个仓库中的错误，可以在 Issues 中提出。
+- 如果发现这个仓库中的错误，可以在 Issues 中提出。
 - 安装 [Github 数学插件](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima)，正确显示 MathJax 公式。
+
 
 ## 《机器学习实战》
 
@@ -21,3 +22,5 @@
 [homework](./andrew-ng-machine-learning/README.md)
 
 ## CS231n:Convolutional Neural Networks for Visual Recognition
+
+## 论文精读列表
