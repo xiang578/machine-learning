@@ -38,3 +38,9 @@
 [I 19:54:17.950 NotebookApp] Saving file at /assignment/assignment1_pandas_olympic_solution_fall2018.ipynb
 [W 19:54:17.950 NotebookApp] Notebook assignment/assignment1_pandas_olympic_solution_fall2018.ipynb is not trusted
 [I 19:54:20.109 NotebookApp] Starting buffering for 8f0d4dcc-8403-498a-b887-24a0c63e7020:31bafb944f3848999b56f74998aab465
+[W 20:01:04.226 NotebookApp] Notebook assignment/assignment3_decision_trees.ipynb is not trusted
+[I 20:01:05.482 NotebookApp] Kernel started: 72c17cab-0ed7-4695-af62-9cbb13a321e4
+[W 20:01:05.492 NotebookApp] 404 GET /img/ods_stickers.jpg (::1) 3.84ms referer=http://localhost:8888/notebooks/assignment/assignment3_decision_trees.ipynb
+[W 20:01:05.495 NotebookApp] 404 GET /img/SCORE2007-eng.png (::1) 2.50ms referer=http://localhost:8888/notebooks/assignment/assignment3_decision_trees.ipynb
+[I 20:01:07.032 NotebookApp] Adapting to protocol v5.1 for kernel 72c17cab-0ed7-4695-af62-9cbb13a321e4
+[I 20:01:19.169 NotebookApp] Starting buffering for 72c17cab-0ed7-4695-af62-9cbb13a321e4:6a7a5b40d6974ab9808ae54ac93335f5

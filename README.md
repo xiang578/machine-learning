@@ -1,7 +1,6 @@
-# machine-learning
+# 机器学习仓库
 
-- 我的机器学习仓库
-- 如果发现这个仓库中的错误，可以在 Issues 中提出。
+- 可以在 Issues 中提出你发现的错误。
 - 安装 [Github 数学插件](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima)，正确显示 MathJax 公式。
 
 
@@ -17,10 +16,12 @@
 | [第 4 章：朴素贝叶斯](./machine-learning-action/Ch04/4.朴素贝叶斯.md) | 分类 | 2018年4月9日  |
 | [第 5 章：Logistics 回归](./machine-learning-action/Ch05/5Logistics.md) | 回归 | 2018年4月12日  |
 
-## 《机器学习-吴恩达》
+## 机器学习-吴恩达
 
 [homework](./andrew-ng-machine-learning/README.md)
 
 ## CS231n:Convolutional Neural Networks for Visual Recognition
+
+## mlcourse.ai
 
 ## 论文精读列表
