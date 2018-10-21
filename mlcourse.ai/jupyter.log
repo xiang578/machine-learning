@@ -1,0 +1,40 @@
+[I 19:34:38.128 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 19:34:38.128 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 19:34:38.134 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/mlcourse.ai
+[I 19:34:38.134 NotebookApp] 本程序运行在: http://localhost:8888/?token=83217f3da6ccbe67a4473a30a8000a957b2a5e3c754c97dd
+[I 19:34:38.134 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 19:34:38.135 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=83217f3da6ccbe67a4473a30a8000a957b2a5e3c754c97dd
+[I 19:34:38.397 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 19:34:52.746 NotebookApp] Kernel started: 36461efc-53ee-48c5-830a-8c564d35493a
+[I 19:34:53.935 NotebookApp] Adapting to protocol v5.1 for kernel 36461efc-53ee-48c5-830a-8c564d35493a
+[I 19:34:59.442 NotebookApp] Starting buffering for 36461efc-53ee-48c5-830a-8c564d35493a:42bbf3f495984e189fb97631c8aa1250
+[I 19:35:14.557 NotebookApp] Kernel started: 3e74cb41-6555-412a-8178-73613bb22480
+[I 19:35:14.578 NotebookApp] 302 GET /notebooks/img/ods_stickers.jpg (::1) 6.76ms
+[I 19:35:16.271 NotebookApp] Adapting to protocol v5.1 for kernel 3e74cb41-6555-412a-8178-73613bb22480
+[I 19:35:18.848 NotebookApp] 302 GET /notebooks/img/ods_stickers.jpg (::1) 1.52ms
+[I 19:35:19.276 NotebookApp] Adapting to protocol v5.1 for kernel 3e74cb41-6555-412a-8178-73613bb22480
+[I 19:35:24.071 NotebookApp] 302 GET /notebooks/img/ods_stickers.jpg (::1) 1.15ms
+[I 19:35:24.197 NotebookApp] Adapting to protocol v5.1 for kernel 3e74cb41-6555-412a-8178-73613bb22480
+[W 19:35:25.983 NotebookApp] Notebook assignment/assignment1_pandas_olympic_solution_fall2018.ipynb is not trusted
+[I 19:35:27.304 NotebookApp] Kernel started: 8f0d4dcc-8403-498a-b887-24a0c63e7020
+[W 19:35:27.334 NotebookApp] 404 GET /img/ods_stickers.jpg (::1) 15.02ms referer=http://localhost:8888/notebooks/assignment/assignment1_pandas_olympic_solution_fall2018.ipynb
+[I 19:35:28.747 NotebookApp] Adapting to protocol v5.1 for kernel 8f0d4dcc-8403-498a-b887-24a0c63e7020
+[I 19:35:34.696 NotebookApp] 302 GET /notebooks/img/ods_stickers.jpg (::1) 1.16ms
+[I 19:37:19.473 NotebookApp] Saving file at /assignment/assignment1_pandas_olympic.ipynb
+[I 19:37:27.317 NotebookApp] Saving file at /assignment/assignment1_pandas_olympic_solution_fall2018.ipynb
+[W 19:37:27.317 NotebookApp] Notebook assignment/assignment1_pandas_olympic_solution_fall2018.ipynb is not trusted
+[I 19:41:18.871 NotebookApp] Saving file at /assignment/assignment1_pandas_olympic.ipynb
+[I 19:45:18.851 NotebookApp] Saving file at /assignment/assignment1_pandas_olympic.ipynb
+[I 19:47:18.868 NotebookApp] Saving file at /assignment/assignment1_pandas_olympic.ipynb
+[I 19:49:18.859 NotebookApp] Saving file at /assignment/assignment1_pandas_olympic.ipynb
+[I 19:51:18.873 NotebookApp] Saving file at /assignment/assignment1_pandas_olympic.ipynb
+[I 19:53:18.869 NotebookApp] Saving file at /assignment/assignment1_pandas_olympic.ipynb
+[I 19:54:09.167 NotebookApp] Saving file at /assignment/assignment1_pandas_olympic.ipynb
+[I 19:54:10.216 NotebookApp] Starting buffering for 3e74cb41-6555-412a-8178-73613bb22480:1be6b45fc0984c4682b864571bf8ecff
+[I 19:54:17.950 NotebookApp] Saving file at /assignment/assignment1_pandas_olympic_solution_fall2018.ipynb
+[W 19:54:17.950 NotebookApp] Notebook assignment/assignment1_pandas_olympic_solution_fall2018.ipynb is not trusted
+[I 19:54:20.109 NotebookApp] Starting buffering for 8f0d4dcc-8403-498a-b887-24a0c63e7020:31bafb944f3848999b56f74998aab465
