@@ -2,6 +2,9 @@
 .idea/
 __pycache__/
 cifar-10-batches-py
-cifar-10-batches-py
 coco_captioning
 refer/
+/cs231n/.ipynb_checkpoints/
+cs231n/assignment3/cs231n/datasets/coco_captioning.zip
+media/
+**/.ipynb_checkpoints
