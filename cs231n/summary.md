@@ -310,9 +310,3 @@ class MultuplyGate(object):
 ## 08. Deep learning software
 ## 09. CNN architectures
 ## 10. Recurrent Neural networks
-## 11. Detection and Segmentation
-## 12. Visualizing and Understanding
-## 13. Generative models
-## 14. Deep reinforcement learning
-## 15. Efficient Methods and Hardware for Deep Learning
-## 16. Adversarial Examples and Adversarial Training
