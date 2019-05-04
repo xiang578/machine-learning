@@ -1,0 +1,65 @@
+[I 20:56:42.124 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 20:56:42.124 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 20:56:42.129 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/mlcourse.ai/jupyter/topic03_decision_trees_kNN
+[I 20:56:42.129 NotebookApp] 本程序运行在: http://localhost:8888/?token=db5de4a6623d52d0bd395e9c29dc26762eb8a208dc588301
+[I 20:56:42.129 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 20:56:42.130 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=db5de4a6623d52d0bd395e9c29dc26762eb8a208dc588301
+[I 20:56:42.482 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[W 20:56:48.791 NotebookApp] Notebook topic3_decision_trees_kNN.ipynb is not trusted
+[I 20:56:53.077 NotebookApp] Kernel started: 79f99334-54b9-4835-9b42-eacf713e1aca
+[W 20:56:53.093 NotebookApp] 404 GET /img/credit_scoring_toy_tree_english.png (::1) 12.70ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:56:53.098 NotebookApp] 404 GET /img/decision_tree3.png (::1) 2.75ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:56:53.106 NotebookApp] 404 GET /img/ods_stickers.jpg (::1) 2.50ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:56:53.109 NotebookApp] 404 GET /img/topic3_hse_instruction.png (::1) 2.52ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:56:53.116 NotebookApp] 404 GET /img/topic3_entropy_balls2.png (::1) 4.81ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:56:53.140 NotebookApp] 404 GET /img/topic3_eng_dtree_structure.png (::1) 2.46ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:56:53.144 NotebookApp] 404 GET /img/topic3_credit_scoring_entropy.png (::1) 3.14ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:56:53.148 NotebookApp] 404 GET /img/kNN.png (::1) 3.15ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:56:53.152 NotebookApp] 404 GET /img/cross_validation.png (::1) 3.23ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[I 20:56:54.688 NotebookApp] Adapting to protocol v5.1 for kernel 79f99334-54b9-4835-9b42-eacf713e1aca
+[I 20:57:44.474 NotebookApp] Starting buffering for 79f99334-54b9-4835-9b42-eacf713e1aca:78d2b0738b8a4928838ce9b84d131764
+[W 20:57:45.228 NotebookApp] Notebook topic3_decision_trees_kNN.ipynb is not trusted
+[W 20:57:49.203 NotebookApp] 404 GET /img/ods_stickers.jpg (::1) 3.05ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:57:49.208 NotebookApp] 404 GET /img/topic3_hse_instruction.png (::1) 3.77ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:57:49.214 NotebookApp] 404 GET /img/credit_scoring_toy_tree_english.png (::1) 3.12ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:57:49.218 NotebookApp] 404 GET /img/decision_tree3.png (::1) 2.15ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:57:49.224 NotebookApp] 404 GET /img/topic3_entropy_balls2.png (::1) 4.19ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:57:49.230 NotebookApp] 404 GET /img/topic3_credit_scoring_entropy.png (::1) 2.70ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:57:49.243 NotebookApp] 404 GET /img/topic3_eng_dtree_structure.png (::1) 2.88ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:57:49.247 NotebookApp] 404 GET /img/kNN.png (::1) 2.99ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:57:49.252 NotebookApp] 404 GET /img/cross_validation.png (::1) 3.64ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[I 20:57:49.344 NotebookApp] Adapting to protocol v5.1 for kernel 79f99334-54b9-4835-9b42-eacf713e1aca
+[I 20:57:57.354 NotebookApp] Saving file at /topic3_decision_trees_kNN.ipynb
+[W 20:57:57.355 NotebookApp] Notebook topic3_decision_trees_kNN.ipynb is not trusted
+[W 20:58:01.503 NotebookApp] 404 GET /img/ods_stickers.jpg (::1) 6.81ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 20:58:07.484 NotebookApp] 404 GET /img/ods_stickers.jpg (::1) 2.30ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 15:04:56.982 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 15:04:56.982 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 15:04:57.006 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/mlcourse.ai/jupyter/topic03_decision_trees_kNN
+[I 15:04:57.007 NotebookApp] 本程序运行在: http://localhost:8888/?token=b3348e9fa4ea6e3a4560964ed776a012fc911caae1c21818
+[I 15:04:57.007 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 15:04:57.013 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=b3348e9fa4ea6e3a4560964ed776a012fc911caae1c21818
+[I 15:04:57.404 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[W 15:05:05.004 NotebookApp] Notebook topic3_decision_trees_kNN.ipynb is not trusted
+[I 15:05:10.624 NotebookApp] Kernel started: 5dddc41d-9332-4f73-924d-5dc8b8beb7dd
+[W 15:05:10.647 NotebookApp] 404 GET /img/ods_stickers.jpg (::1) 14.30ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 15:05:10.650 NotebookApp] 404 GET /img/topic3_hse_instruction.png (::1) 2.82ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 15:05:10.654 NotebookApp] 404 GET /img/credit_scoring_toy_tree_english.png (::1) 2.36ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 15:05:10.657 NotebookApp] 404 GET /img/topic3_entropy_balls2.png (::1) 2.41ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 15:05:10.661 NotebookApp] 404 GET /img/topic3_credit_scoring_entropy.png (::1) 2.41ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 15:05:10.665 NotebookApp] 404 GET /img/decision_tree3.png (::1) 2.70ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 15:05:10.669 NotebookApp] 404 GET /img/topic3_eng_dtree_structure.png (::1) 2.70ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 15:05:10.675 NotebookApp] 404 GET /img/kNN.png (::1) 2.96ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[W 15:05:10.679 NotebookApp] 404 GET /img/cross_validation.png (::1) 2.47ms referer=http://localhost:8888/notebooks/topic3_decision_trees_kNN.ipynb
+[I 15:05:12.070 NotebookApp] Adapting to protocol v5.1 for kernel 5dddc41d-9332-4f73-924d-5dc8b8beb7dd
+[I 15:05:34.522 NotebookApp] Starting buffering for 5dddc41d-9332-4f73-924d-5dc8b8beb7dd:b0c60d83022642c094a0bcd4afc9af88
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.

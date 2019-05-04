@@ -224,22 +224,27 @@ class MultuplyGate(object):
 ## 06. Training neural networks I
 
 - Activation functions 激活函数
+    - 不使用激活函数，最后的输出会是输入的线性组合。利用激活函数对数据进行修正。
     - ![](media/15395012747510.jpg)
     - Sigmoid
         - 限制输出在 [0,1]区间内
         - firing rate
+        - 二分类输出层激活函数
         - Problem
             - 梯度消失：x很大或者很小时，梯度很小，接近于0（考虑图像中的斜率。无法得到梯度反馈。
             - 输出不是 0 均值的数据，梯度更新效率低
             - exp is a bit compute expensive
     - tanh
-        - 输出范围 -1 1
+        - 输出范围 [-1, 1]
         - 0 均值
         - x 很大时，依然没有梯度
-    - RELU rectified linear unit
+        - ${f(x)=\frac{e^{z}-e^{-z}}{e^{z}+e^{-z}}}$
+        - ${1-(tanh(x))^2}$
+    - RELU rectified linear unit 线性修正单元
         - 一半空间梯度不会饱和，计算速度快，对结果又有精确的计算
         - 不是 0 均值
     - Leaky RELU
+        - `leaky_RELU(x) = max(0.01x, x)`
         - 梯度不会消失
         - 需要学习参数
     - ELU
@@ -257,10 +262,12 @@ class MultuplyGate(object):
 -  数据预处理 Data Preprocessing
     - 均值减法：对数据中每个独立特征减去平均值，从几何上来看是将数据云的中心都迁移到原点。
     - 归一化：将数据中的所有维度都归一化，使数值范围近似相等。但是在图像处理中，像素的数值范围几乎一致，所以不需要额外处理。
-    -  ```python  
+    
+    ```python  
        X -= np.mean(X, axis = 1)
        X /= np.std(X, axis =1)
-       ```
+    ```
+    
     - 图像归一化
         - Subtract the mean image AlexNet
             - mean image 32,32,3
@@ -302,9 +309,49 @@ class MultuplyGate(object):
 ## 07. Training neural networks II
 - Optimization Algorithms:
     - SGD 的问题
+        - `x += - learning_rate * dx`
         - 梯度在某一个方向下降速度快，在其他方向下降缓慢
         - 遇到局部最小值点，鞍点
+    - mini-batches GD
+        - Shuffling and Partitioning are the two steps required to build mini-batches
+        - Powers of two are often chosen to be the mini-batch size, e.g., 16, 32, 64, 128.
     - SGD + Momentun
+        - 动量更新：从物理学角度启发最优化问题
+        - `v = rho * vx + learning_rate * dx; x += v`
+        - rho 被看做是动量，其物理意义与摩擦系数想类似，常取 0.9 或0.99
+    - Nestrov momentum
+        - ![](media/15499574039274.jpg)
+        - `v_prev = v; v = mu * v - learning_rate * dx; x += -mu * v_prev + (1 + mu) * v`
+    - AdaGrad
+    - RMSProp
+        - 自适应学习率方法
+        - cache =  decay_rate * cache + (1 - decay_rate) * dx**2
+        - x += - learning_rate * dx / (np.sqrt(cache) + eps)
+    - Adam
+        - RMSProp + Momentum
+        - It calculates an exponentially weighted average of past gradients, and stores it in variables $v$ (before bias correction) and $v^{corrected}$ (with bias correction). 
+        - It calculates an exponentially weighted average of the squares of the past gradients, and  stores it in variables $s$ (before bias correction) and $s^{corrected}$ (with bias correction). 
+        - It updates parameters in a direction based on combining information from "1" and "2".
+        - The update rule is, for $l = 1, ..., L$: 
+$$\begin{cases}
+v_{dW^{[l]}} = \beta_1 v_{dW^{[l]}} + (1 - \beta_1) \frac{\partial \mathcal{J} }{ \partial W^{[l]} } \\
+v^{corrected}_{dW^{[l]}} = \frac{v_{dW^{[l]}}}{1 - (\beta_1)^t} \\
+s_{dW^{[l]}} = \beta_2 s_{dW^{[l]}} + (1 - \beta_2) (\frac{\partial \mathcal{J} }{\partial W^{[l]} })^2 \\
+s^{corrected}_{dW^{[l]}} = \frac{s_{dW^{[l]}}}{1 - (\beta_1)^t} \\
+W^{[l]} = W^{[l]} - \alpha \frac{v^{corrected}_{dW^{[l]}}}{\sqrt{s^{corrected}_{dW^{[l]}}} + \varepsilon}
+\end{cases}$$
+        where:
+        - t counts the number of steps taken of Adam 
+        - L is the number of layers
+        - $\beta_1$ and $\beta_2$ are hyperparameters that control the two exponentially weighted averages. 
+        - $\alpha$ is the learning rate
+        - $\varepsilon$ is a very small number to avoid dividing by zero
+
+    - Learning decay
+        - 防止学习停止
+    - Second order optimization
+- Regularization
+- Transfer learning
         
         
 ## 08. Deep learning software

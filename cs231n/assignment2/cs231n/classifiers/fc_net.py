@@ -189,7 +189,29 @@ class FullyConnectedNet(object):
         # beta2, etc. Scale parameters should be initialized to one and shift      #
         # parameters should be initialized to zero.                                #
         ############################################################################
-        pass
+        L = self.num_layers
+
+        for i in range(0, L):
+            before_dim = 0
+            next_dim = 0
+            if i == 0:
+                before_dim = input_dim
+            else:
+                before_dim = hidden_dims[i-1]
+
+            if i == L-1:
+                next_dim = input_dim
+            else:
+                next_dim = hidden_dims[i]
+            self.params['W' + str(i+1)] = np.random.randn(before_dim, next_dim) * weight_scale
+            self.params['b' + str(i+1)] = np.zeros(next_dim)
+            if self.use_batchnorm and i != L -1:
+                # print(i, hidden_dims[i])
+                self.params['gamma' + str(i+1)] = np.ones(next_dim)
+                self.params['beta' + str(i+1)] = np.zeros(next_dim)
+                # self.params['running_mean' ]
+        #print(self.params)
+
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################
@@ -214,6 +236,7 @@ class FullyConnectedNet(object):
 
         # Cast all parameters to the correct datatype
         for k, v in self.params.items():
+            # print(k)
             self.params[k] = v.astype(dtype)
 
 
@@ -247,7 +270,25 @@ class FullyConnectedNet(object):
         # self.bn_params[1] to the forward pass for the second batch normalization #
         # layer, etc.                                                              #
         ############################################################################
-        pass
+        L = self.num_layers
+        out = {}
+        cache = {}
+        out[0] = X
+        for i in range(0, L):
+            if i == L-1:
+                out[i+1],cache[i+1] = affine_forward(out[i], self.params['W' + str(i + 1)],self.params['b' + str(i + 1)])
+            elif self.use_batchnorm == True and self.use_dropout == True:
+                out[i + 1], cache[i + 1] = affine_bn_relu_dp_forward(out[i], self.params['W' + str(i + 1)],
+                                                                  self.params['b' + str(i + 1)],
+                                                                  self.params['gamma' + str(i + 1)],
+                                                                  self.params['beta' + str(i + 1)], self.bn_params[i], self.dropout_param)
+            elif self.use_batchnorm == True:
+                out[i+1],cache[i+1] = affine_bn_relu_forward(out[i],  self.params['W' + str(i + 1)], self.params['b' + str(i + 1)], self.params['gamma' + str(i + 1)], self.params['beta' + str(i + 1)], self.bn_params[i])
+            elif self.use_dropout == True:
+                out[i+1], cache[i+1] = affine_relu_dp_forward(out[i], self.params['W' + str(i + 1)],self.params['b' + str(i + 1)], self.dropout_param)
+            else:
+                out[i+1], cache[i+1] = affine_relu_forward(out[i], self.params['W' + str(i + 1)],self.params['b' + str(i + 1)])
+        scores = out[L]
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################
@@ -270,7 +311,26 @@ class FullyConnectedNet(object):
         # automated tests, make sure that your L2 regularization includes a factor #
         # of 0.5 to simplify the expression for the gradient.                      #
         ############################################################################
-        pass
+        loss, dout = softmax_loss(scores, y)
+
+        for i in range(L,0,-1):
+            # loss += 0.5 * self.reg * np.sum(self.params['W' + str(i)] * self.params['W' + str(i)])
+            loss += 0.5 * self.reg * np.sum(self.params['W' + str(i)] ** 2)
+
+            if i == L:
+                dout, grads['W'+str(i)], grads['b'+str(i)] = affine_backward(dout, cache[i])
+            elif self.use_batchnorm == True and self.use_dropout == True:
+                dout, grads['W'+str(i)], grads['b'+str(i)], grads["gamma"+str(i)], grads["beta"+str(i)] = affine_bn_relu_dp_backward(dout, cache[i])
+            elif self.use_batchnorm == True:
+                dout, grads['W'+str(i)], grads['b'+str(i)], grads["gamma"+str(i)], grads["beta"+str(i)] = affine_bn_relu_backward(dout, cache[i])
+            elif self.use_dropout == True:
+                dout, grads['W'+str(i)], grads['b'+str(i)] = affine_relu_dp_backward(dout, cache[i])
+            else:
+                dout, grads['W'+str(i)], grads['b'+str(i)] = affine_relu_backward(dout, cache[i])
+            # 后面一项是带正则的损失函数求导之后的结果
+            grads['W'+str(i)] += self.reg * self.params['W' + str(i)]
+
+        # print(loss)
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################

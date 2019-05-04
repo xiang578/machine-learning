@@ -30,6 +30,53 @@ def affine_relu_backward(dout, cache):
     dx, dw, db = affine_backward(da, fc_cache)
     return dx, dw, db
 
+def affine_relu_dp_forward(x, w, b, dropout_params):
+    a, fc_cache = affine_forward(x, w, b)
+    relu_out, relu_cache = relu_forward(a)
+    out,dp_cache = dropout_forward(relu_out, dropout_params)
+    cache = (fc_cache, relu_cache, dp_cache)
+    return out, cache
+
+def affine_relu_dp_backward(dout, cache):
+    fc_cache, relu_cache, dp_cache = cache
+    ddp = dropout_backward(dout, dp_cache)
+    da = relu_backward(ddp, relu_cache)
+    dx, dw, db = affine_backward(da, fc_cache)
+    return dx, dw, db
+
+def affine_bn_relu_dp_forward(x, w, b, gamma, beta, bn_params, dropout_params):
+    a, fc_cache = affine_forward(x, w, b)
+    bn_out, bn_cache = batchnorm_forward(a, gamma, beta, bn_params)
+    relu_out, relu_cache = relu_forward(bn_out)
+    out, dp_cache = dropout_forward(relu_out, dropout_params)
+    cache = (fc_cache, bn_cache, relu_cache, dp_cache)
+    return out, cache
+
+def affine_bn_relu_dp_backward(dout, cache):
+    fc_cache, bn_cache, relu_cache, dp_cache = cache
+    ddp = dropout_backward(dout, dp_cache)
+    da = relu_backward(ddp, relu_cache)
+    dbn, dgamma, dbeta = batchnorm_backward_alt(da, bn_cache)
+    dx, dw, db = affine_backward(dbn, fc_cache)
+    return dx, dw, db, dgamma, dbeta
+
+def affine_bn_relu_forward(x, w, b, gamma, beta, bn_params):
+    a, fc_cache = affine_forward(x, w, b)
+    # print (a.shape)
+    # print (gamma.shape)
+    bn_out, bn_cache = batchnorm_forward(a, gamma, beta, bn_params)
+    out, relu_cache = relu_forward(bn_out)
+    # print bn_cache
+    cache = (fc_cache, bn_cache, relu_cache)
+    return out, cache
+
+def affine_bn_relu_backward(dout, cache):
+    fc_cache, bn_cache, relu_cache = cache
+    # print(len(bn_cache))
+    da = relu_backward(dout, relu_cache)
+    dbn, dgamma, dbeta = batchnorm_backward_alt(da, bn_cache)
+    dx, dw, db = affine_backward(dbn, fc_cache)
+    return dx, dw, db, dgamma, dbeta
 
 def conv_relu_forward(x, w, b, conv_param):
     """

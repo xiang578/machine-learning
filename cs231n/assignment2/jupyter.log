@@ -1,0 +1,525 @@
+[I 19:47:12.183 NotebookApp] 端口 8888 已经被站用, 请尝试其他端口.
+[I 19:47:12.242 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 19:47:12.243 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 19:47:12.248 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 19:47:12.249 NotebookApp] 本程序运行在: http://localhost:8889/?token=bed31eb3784927c7138e162b367bb63c9dcbb4c969f339b7
+[I 19:47:12.249 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 19:47:12.254 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=bed31eb3784927c7138e162b367bb63c9dcbb4c969f339b7
+[I 19:47:12.874 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 19:47:47.404 NotebookApp] Kernel started: 638102af-729d-4cd5-954b-287fde1c126e
+[I 19:47:49.417 NotebookApp] Adapting to protocol v5.1 for kernel 638102af-729d-4cd5-954b-287fde1c126e
+[I 19:49:47.302 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 19:51:47.332 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 19:55:47.323 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 19:59:47.515 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:01:47.534 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:03:47.301 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:05:47.543 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:07:47.520 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:09:47.303 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:11:47.523 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:13:47.486 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:15:01.905 NotebookApp] Creating new notebook in 
+[I 20:15:03.969 NotebookApp] Kernel started: 0374f764-1994-4d8b-802a-dd8cb006157e
+[I 20:15:06.731 NotebookApp] Adapting to protocol v5.1 for kernel 0374f764-1994-4d8b-802a-dd8cb006157e
+[I 20:17:04.458 NotebookApp] Saving file at /未命名.ipynb
+[I 20:17:47.502 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:18:07.631 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:19:47.475 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:21:47.287 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:25:29.941 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:27:47.471 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:31:04.584 NotebookApp] Saving file at /未命名.ipynb
+[I 20:31:47.459 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:33:03.789 NotebookApp] Saving file at /未命名.ipynb
+[I 20:35:04.479 NotebookApp] Saving file at /未命名.ipynb
+[I 20:35:47.467 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:37:03.781 NotebookApp] Saving file at /未命名.ipynb
+[I 20:39:04.577 NotebookApp] Saving file at /未命名.ipynb
+[I 20:39:47.514 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:41:47.483 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:45:47.542 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:47:47.301 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:09:47.554 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:13:47.506 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:15:47.489 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:17:04.462 NotebookApp] Saving file at /未命名.ipynb
+[I 21:17:47.514 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:19:04.515 NotebookApp] Saving file at /未命名.ipynb
+[I 21:19:47.470 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:23:47.485 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:33:47.277 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:37:47.463 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:39:47.390 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:41:47.514 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:43:47.500 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:45:47.299 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:47:47.496 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 21:51:47.496 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 22:01:47.269 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 22:05:47.461 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 22:07:47.273 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 22:09:47.272 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 22:15:47.278 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 22:17:47.600 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 22:19:47.295 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 22:21:47.275 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 22:22:29.764 NotebookApp] Starting buffering for 0374f764-1994-4d8b-802a-dd8cb006157e:5e636fbaab254bfb8fac95caf5d9b846
+[I 22:22:32.892 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 22:22:34.995 NotebookApp] Starting buffering for 638102af-729d-4cd5-954b-287fde1c126e:b8ce997c62f940338fc74f4c21f6c8be
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 19:56:40.153 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 19:56:40.154 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 19:56:40.159 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 19:56:40.160 NotebookApp] 本程序运行在: http://localhost:8888/?token=b1c38a33ef557edc7174c3652e89b6b6be7c3167fe76a1e7
+[I 19:56:40.160 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 19:56:40.160 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=b1c38a33ef557edc7174c3652e89b6b6be7c3167fe76a1e7
+[I 19:56:40.661 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 19:58:33.028 NotebookApp] Kernel started: 09e7b7e8-b568-4538-89f0-5a61bdccb9ad
+[I 19:58:35.000 NotebookApp] Adapting to protocol v5.1 for kernel 09e7b7e8-b568-4538-89f0-5a61bdccb9ad
+[I 20:00:33.014 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:02:33.048 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:04:33.634 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:06:33.713 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:08:33.051 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:10:33.671 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:12:33.700 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:30:33.782 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 20:32:33.146 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:13:58.715 NotebookApp] 端口 8888 已经被站用, 请尝试其他端口.
+[I 01:13:58.776 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 01:13:58.776 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 01:13:58.781 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 01:13:58.781 NotebookApp] 本程序运行在: http://localhost:8889/?token=2b127302c2ccaea6f44687ecc62990feb84b2bee82773f70
+[I 01:13:58.781 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 01:13:58.782 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=2b127302c2ccaea6f44687ecc62990feb84b2bee82773f70
+[I 01:13:59.198 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 01:15:22.493 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:27:22.490 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:29:21.847 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:31:22.452 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:35:22.474 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:41:22.499 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:43:22.452 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:49:21.854 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:51:21.886 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:53:21.861 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:55:21.847 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 01:57:22.521 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:01:22.464 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[W 02:02:48.145 NotebookApp] 400 GET /api/contents/test.ipynb?type=notebook&_=1549908167928 (::1): Unreadable Notebook: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2/test.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "m...',)
+[W 02:02:48.145 NotebookApp] Unreadable Notebook: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2/test.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "m...',)
+[W 02:02:48.146 NotebookApp] 400 GET /api/contents/test.ipynb?type=notebook&_=1549908167928 (::1) 9.86ms referer=http://localhost:8888/notebooks/test.ipynb
+[W 02:03:40.857 NotebookApp] 400 GET /api/contents/test.ipynb?type=notebook&_=1549908220642 (::1): Unreadable Notebook: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2/test.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "m...',)
+[W 02:03:40.857 NotebookApp] Unreadable Notebook: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2/test.ipynb NotJSONError('Notebook does not appear to be JSON: \'{\\n "cells": [\\n  {\\n   "cell_type": "m...',)
+[W 02:03:40.858 NotebookApp] 400 GET /api/contents/test.ipynb?type=notebook&_=1549908220642 (::1) 9.00ms referer=http://localhost:8888/notebooks/test.ipynb
+[I 02:07:22.684 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:09:22.162 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:09:51.680 NotebookApp] Starting buffering for 09e7b7e8-b568-4538-89f0-5a61bdccb9ad:891f159328ca41568a76446ecc7cdbfb
+[I 02:09:56.953 NotebookApp] Kernel restarted: 09e7b7e8-b568-4538-89f0-5a61bdccb9ad
+[I 02:09:58.720 NotebookApp] Adapting to protocol v5.1 for kernel 09e7b7e8-b568-4538-89f0-5a61bdccb9ad
+[I 02:09:58.722 NotebookApp] Restoring connection for 09e7b7e8-b568-4538-89f0-5a61bdccb9ad:891f159328ca41568a76446ecc7cdbfb
+[I 02:09:58.723 NotebookApp] Replaying 8 buffered messages
+[I 02:11:22.413 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:15:21.881 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:17:21.863 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:17:45.139 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:19:21.850 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:21:22.309 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:23:21.873 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:27:22.476 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:31:22.487 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:33:21.852 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:35:21.854 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:37:21.919 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:39:21.855 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:41:21.858 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:43:21.862 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:45:21.905 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:47:22.488 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:49:22.518 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:51:22.468 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:53:21.853 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:55:22.502 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 02:57:21.880 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 13:52:31.121 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 13:52:31.122 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 13:52:31.130 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 13:52:31.130 NotebookApp] 本程序运行在: http://localhost:8888/?token=e1c5e01359eb6fbd4b299ae004b36156f5caf4bf6da200e6
+[I 13:52:31.130 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 13:52:31.132 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=e1c5e01359eb6fbd4b299ae004b36156f5caf4bf6da200e6
+[I 13:52:32.064 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 15:19:31.775 NotebookApp] Kernel started: 76d2db59-9054-43ea-b83c-abf5422673e1
+[I 15:19:34.461 NotebookApp] Adapting to protocol v5.1 for kernel 76d2db59-9054-43ea-b83c-abf5422673e1
+[I 15:21:33.877 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 15:35:32.580 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 15:43:01.485 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 15:51:33.301 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 15:53:33.341 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 15:55:33.465 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 15:57:33.516 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 15:59:33.298 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:01:33.466 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:05:33.302 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:11:33.498 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:13:33.295 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:27:33.373 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:39:33.318 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:41:33.569 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:45:33.549 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:49:33.297 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:51:33.570 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:53:33.543 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 16:55:33.921 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 18:32:21.387 NotebookApp] Starting buffering for 76d2db59-9054-43ea-b83c-abf5422673e1:3c300c01a7a242c996ab7687b6bb51f5
+[I 18:33:39.057 NotebookApp] Adapting to protocol v5.1 for kernel 76d2db59-9054-43ea-b83c-abf5422673e1
+[I 16:58:32.366 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 16:58:32.373 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 16:58:32.380 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 16:58:32.380 NotebookApp] 本程序运行在: http://localhost:8888/?token=bea5b891785b57617fc8e334d7d092d58323e8276e066a02
+[I 16:58:32.380 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 16:58:32.382 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=bea5b891785b57617fc8e334d7d092d58323e8276e066a02
+[I 16:58:33.571 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[W 17:01:53.598 NotebookApp] Notebook test.ipynb is not trusted
+[I 17:01:53.842 NotebookApp] Kernel started: 264efe79-743e-41b0-8007-8bf1701830c7
+[I 17:01:55.926 NotebookApp] Adapting to protocol v5.1 for kernel 264efe79-743e-41b0-8007-8bf1701830c7
+[I 17:02:12.615 NotebookApp] Kernel started: 1c685edf-8c57-4c4b-a170-a6a37aa25aa8
+[I 17:02:13.112 NotebookApp] Starting buffering for 264efe79-743e-41b0-8007-8bf1701830c7:91d0976360044f169052ab250b845646
+[I 17:02:16.688 NotebookApp] Adapting to protocol v5.1 for kernel 1c685edf-8c57-4c4b-a170-a6a37aa25aa8
+[I 17:02:25.230 NotebookApp] Starting buffering for 1c685edf-8c57-4c4b-a170-a6a37aa25aa8:cc59e998cfc94e329f772f97f5c96eb2
+[I 17:03:00.706 NotebookApp] Kernel started: b75f9d61-e19c-4ae8-88a6-854216c56057
+[I 17:03:02.743 NotebookApp] Adapting to protocol v5.1 for kernel b75f9d61-e19c-4ae8-88a6-854216c56057
+[I 17:04:09.292 NotebookApp] Adapting to protocol v5.1 for kernel 1c685edf-8c57-4c4b-a170-a6a37aa25aa8
+[I 17:05:01.362 NotebookApp] Saving file at /test.ipynb
+[I 17:08:08.994 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 17:10:08.929 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[W 17:12:10.835 NotebookApp] Notebook BatchNormalization.ipynb is not trusted
+[I 17:12:11.745 NotebookApp] Kernel started: 5cd56c57-4ac9-46a3-82d1-e920fbd6bacd
+[I 17:12:14.678 NotebookApp] Adapting to protocol v5.1 for kernel 5cd56c57-4ac9-46a3-82d1-e920fbd6bacd
+[I 17:14:11.760 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 17:19:13.253 NotebookApp] Adapting to protocol v5.1 for kernel 5cd56c57-4ac9-46a3-82d1-e920fbd6bacd
+[I 17:21:12.813 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 17:25:12.811 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 17:27:12.777 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 17:31:12.781 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 17:33:13.242 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 17:39:12.772 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 17:51:13.338 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 17:53:13.249 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 22:10:44.155 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 22:12:44.135 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 22:14:44.131 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 22:28:44.178 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 22:44:32.628 NotebookApp] Saving file at /test.ipynb
+[I 22:44:38.493 NotebookApp] Starting buffering for 1c685edf-8c57-4c4b-a170-a6a37aa25aa8:15c79de10ae14d5fad4539cb5ace67db
+[I 23:02:33.807 NotebookApp] Starting buffering for 5cd56c57-4ac9-46a3-82d1-e920fbd6bacd:f3bbc599a0aa49d6aadacd0d06868e55
+[I 23:03:51.441 NotebookApp] Starting buffering for b75f9d61-e19c-4ae8-88a6-854216c56057:dd56f8e505494d2d858430cfcb207b9e
+[I 22:01:06.038 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 22:01:06.038 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 22:01:06.044 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 22:01:06.044 NotebookApp] 本程序运行在: http://localhost:8888/?token=b902ecaebaf0e45e23ee4472bcf7e39ebc5c248de3423423
+[I 22:01:06.044 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 22:01:06.045 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=b902ecaebaf0e45e23ee4472bcf7e39ebc5c248de3423423
+[I 22:01:06.475 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 22:01:12.961 NotebookApp] Kernel started: 5b316b03-6873-47f5-8548-b2d2e48036d6
+[I 22:01:14.725 NotebookApp] Adapting to protocol v5.1 for kernel 5b316b03-6873-47f5-8548-b2d2e48036d6
+[I 22:03:12.811 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 09:57:14.974 NotebookApp] Starting buffering for 5b316b03-6873-47f5-8548-b2d2e48036d6:f1b2b7986147406a876bc6a3efbfdb9e
+[I 07:53:49.008 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 07:53:49.008 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 07:53:49.013 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 07:53:49.013 NotebookApp] 本程序运行在: http://localhost:8888/?token=c3e014771cec7d3187ca0271ce40c903b55db317b948cca1
+[I 07:53:49.013 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 07:53:49.014 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=c3e014771cec7d3187ca0271ce40c903b55db317b948cca1
+[I 07:53:49.603 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 07:55:05.797 NotebookApp] Kernel started: 667c42d6-eb3b-4af3-ac85-d7b90025de8f
+[I 07:55:07.666 NotebookApp] Adapting to protocol v5.1 for kernel 667c42d6-eb3b-4af3-ac85-d7b90025de8f
+[I 07:55:40.073 NotebookApp] Kernel started: 28529008-7640-4e10-a36a-7372d375c66e
+[I 07:55:41.942 NotebookApp] Adapting to protocol v5.1 for kernel 28529008-7640-4e10-a36a-7372d375c66e
+[I 07:55:49.745 NotebookApp] Starting buffering for 667c42d6-eb3b-4af3-ac85-d7b90025de8f:a416b18b9f3c40c58224b84e24137e8b
+[I 07:55:49.865 NotebookApp] Starting buffering for 28529008-7640-4e10-a36a-7372d375c66e:6a6d513e13d24f58ac38653f2a0a2fb8
+[I 07:56:03.646 NotebookApp] Adapting to protocol v5.1 for kernel 28529008-7640-4e10-a36a-7372d375c66e
+[I 07:56:12.645 NotebookApp] Adapting to protocol v5.1 for kernel 667c42d6-eb3b-4af3-ac85-d7b90025de8f
+[I 07:58:12.340 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:00:12.353 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:06:12.324 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:08:12.891 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:20:12.292 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:22:12.933 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:26:12.290 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:32:13.425 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:36:12.280 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:48:12.278 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 09:59:59.291 NotebookApp] Starting buffering for 667c42d6-eb3b-4af3-ac85-d7b90025de8f:b1709b47b4b9416a8ad697fd664b0339
+[I 09:59:59.303 NotebookApp] Starting buffering for 28529008-7640-4e10-a36a-7372d375c66e:a3463e7a01c24e958a07801d4ff791d7
+[I 14:15:33.515 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 14:15:33.515 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 14:15:33.526 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 14:15:33.526 NotebookApp] 本程序运行在: http://localhost:8888/?token=fa571e1fbe91eba705ee9e1559863fecbd54fe4706920b3d
+[I 14:15:33.526 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 14:15:33.527 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=fa571e1fbe91eba705ee9e1559863fecbd54fe4706920b3d
+[I 14:15:35.134 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 14:18:35.873 NotebookApp] Kernel started: 43d8e390-6029-42ea-ad2f-80c266ed512c
+[I 14:18:38.789 NotebookApp] Adapting to protocol v5.1 for kernel 43d8e390-6029-42ea-ad2f-80c266ed512c
+[I 14:20:36.017 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 14:36:35.839 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 21:31:12.185 NotebookApp] Starting buffering for 43d8e390-6029-42ea-ad2f-80c266ed512c:025cd801542a41fa8ae4f97ce66f670c
+[I 07:32:46.905 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 07:32:46.907 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 07:32:46.916 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 07:32:46.916 NotebookApp] 本程序运行在: http://localhost:8888/?token=dcebcd1704f389268062f0ed6dc75a6aaf6fdf24ff785695
+[I 07:32:46.916 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 07:32:46.932 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=dcebcd1704f389268062f0ed6dc75a6aaf6fdf24ff785695
+[I 07:32:47.574 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 07:35:38.230 NotebookApp] Kernel started: d42258e0-7a43-4817-94a2-8b953828eed3
+[I 07:35:40.323 NotebookApp] Adapting to protocol v5.1 for kernel d42258e0-7a43-4817-94a2-8b953828eed3
+[I 07:43:38.139 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 07:57:38.133 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:01:39.473 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:05:38.165 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:07:41.451 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:09:38.565 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:15:25.041 NotebookApp] Kernel started: 8d340672-0380-4987-810b-51eea5bcb8c6
+[I 08:15:27.458 NotebookApp] Adapting to protocol v5.1 for kernel 8d340672-0380-4987-810b-51eea5bcb8c6
+[I 08:16:08.490 NotebookApp] Starting buffering for 8d340672-0380-4987-810b-51eea5bcb8c6:05855f738dfc441983acc7986708f36f
+[I 08:21:44.166 NotebookApp] Adapting to protocol v5.1 for kernel 8d340672-0380-4987-810b-51eea5bcb8c6
+[I 08:23:44.175 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 08:25:44.141 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 08:33:38.147 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:35:38.103 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:37:38.165 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:37:44.190 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 09:47:04.690 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 11:21:21.947 NotebookApp] Starting buffering for d42258e0-7a43-4817-94a2-8b953828eed3:486fac91fe2347769bc2b9e543f00b78
+[I 11:21:38.856 NotebookApp] Adapting to protocol v5.1 for kernel d42258e0-7a43-4817-94a2-8b953828eed3
+[I 21:53:34.070 NotebookApp] Starting buffering for 8d340672-0380-4987-810b-51eea5bcb8c6:d56ed2b4255740d28abffc44cc7c6bd5
+[I 21:53:34.307 NotebookApp] Starting buffering for d42258e0-7a43-4817-94a2-8b953828eed3:9f709bed9a41454f861d42f9f5100f51
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 22:16:29.129 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 22:16:29.129 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 22:16:29.137 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 22:16:29.137 NotebookApp] 本程序运行在: http://localhost:8888/?token=90a73b00d35a3fb570f0bd14f03b1fb04396794806b7dc6f
+[I 22:16:29.137 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 22:16:29.138 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=90a73b00d35a3fb570f0bd14f03b1fb04396794806b7dc6f
+[I 22:16:29.870 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 22:17:01.510 NotebookApp] Kernel started: f779f7c9-bed1-4258-a678-d92577a63f9a
+[I 22:17:04.643 NotebookApp] Adapting to protocol v5.1 for kernel f779f7c9-bed1-4258-a678-d92577a63f9a
+[I 22:20:11.796 NotebookApp] Kernel started: f19f9af6-c7b3-4897-8db5-25592c1e8549
+[I 22:20:15.029 NotebookApp] Adapting to protocol v5.1 for kernel f19f9af6-c7b3-4897-8db5-25592c1e8549
+[I 22:22:11.846 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 22:24:12.295 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 22:34:11.860 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 22:36:11.815 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 22:42:11.811 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 22:46:11.812 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 22:48:11.806 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 23:02:12.556 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 23:04:11.832 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 23:06:11.824 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 23:08:11.814 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 23:14:11.818 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 23:16:11.829 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 23:22:11.817 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 23:24:11.802 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 23:26:12.285 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 23:28:13.937 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 00:20:11.790 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 00:22:11.807 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 00:24:12.239 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 00:32:11.800 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 00:42:11.788 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 00:49:01.781 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 00:51:01.717 NotebookApp] Saving file at /FullyConnectedNets.ipynb
+[I 00:51:45.232 NotebookApp] Starting buffering for f779f7c9-bed1-4258-a678-d92577a63f9a:1ce3ae98a77348b6a4834d8da6f455e0
+[I 00:54:11.814 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 00:56:11.787 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 00:58:15.439 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:00:11.819 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:00:28.517 NotebookApp] Starting buffering for f19f9af6-c7b3-4897-8db5-25592c1e8549:08e75e846c384c25b1141ca69b4039ef
+[I 08:00:35.482 NotebookApp] Adapting to protocol v5.1 for kernel f19f9af6-c7b3-4897-8db5-25592c1e8549
+[I 08:02:35.049 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:04:35.002 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:12:34.991 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:14:34.988 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:16:34.994 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:18:34.984 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:20:34.994 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:28:35.007 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:30:35.164 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:32:35.173 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:33:19.990 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:33:23.387 NotebookApp] Saving file at /BatchNormalization.ipynb
+[I 08:33:25.387 NotebookApp] Starting buffering for f19f9af6-c7b3-4897-8db5-25592c1e8549:4881f783c53f4d7991c9cc2a958e41a1
+[I 20:48:12.186 NotebookApp] Adapting to protocol v5.1 for kernel f19f9af6-c7b3-4897-8db5-25592c1e8549
+[I 20:48:15.973 NotebookApp] Starting buffering for f19f9af6-c7b3-4897-8db5-25592c1e8549:0398be5c6d2644a98d725152ce795b1e
+[W 20:48:20.242 NotebookApp] Notebook Dropout.ipynb is not trusted
+[I 20:48:20.760 NotebookApp] Kernel started: 2dd49bee-a5ca-481a-bd9f-bfa9aa84e092
+[I 20:48:22.792 NotebookApp] Adapting to protocol v5.1 for kernel 2dd49bee-a5ca-481a-bd9f-bfa9aa84e092
+[I 20:50:21.057 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:22:28.977 NotebookApp] Adapting to protocol v5.1 for kernel 2dd49bee-a5ca-481a-bd9f-bfa9aa84e092
+[I 22:24:28.473 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:26:28.489 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:34:28.945 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:36:28.917 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:38:33.556 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:40:34.074 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:42:28.949 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:48:29.303 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:50:28.908 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:52:28.898 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:54:28.896 NotebookApp] Saving file at /Dropout.ipynb
+[I 22:56:29.860 NotebookApp] Saving file at /Dropout.ipynb
+[I 09:49:58.140 NotebookApp] Starting buffering for 2dd49bee-a5ca-481a-bd9f-bfa9aa84e092:926bf074f7c849b1a2b6f01e3e3fcb17
+[I 09:52:34.151 NotebookApp] Adapting to protocol v5.1 for kernel 2dd49bee-a5ca-481a-bd9f-bfa9aa84e092
+[I 10:24:07.565 NotebookApp] Starting buffering for 2dd49bee-a5ca-481a-bd9f-bfa9aa84e092:2494419c93ac4aeba80cd2feddf9323d
+[I 16:26:20.729 NotebookApp] 302 GET /notebooks (::1) 117.30ms
+[I 16:26:26.934 NotebookApp] Kernel started: b01595fe-45b8-4e8b-bf5d-c380518fc001
+[I 16:26:29.995 NotebookApp] Adapting to protocol v5.1 for kernel b01595fe-45b8-4e8b-bf5d-c380518fc001
+[I 16:28:26.942 NotebookApp] Saving file at /test.ipynb
+[I 11:32:28.305 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 11:32:28.306 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 11:32:28.311 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 11:32:28.311 NotebookApp] 本程序运行在: http://localhost:8888/?token=7e7088be6b16d83c52baf28fd108117279f376ca3df43adc
+[I 11:32:28.311 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 11:32:28.313 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=7e7088be6b16d83c52baf28fd108117279f376ca3df43adc
+[I 11:32:28.653 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[C 20:23:34.507 NotebookApp] 接受信号 15, 正在停止
+[I 20:23:34.524 NotebookApp] 关闭 0 服务
+[I 11:54:51.635 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 11:54:51.636 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 11:54:51.642 NotebookApp] 启动notebooks 在本地路径: /Users/didi/Documents/personal/machine-learning/cs231n/assignment2
+[I 11:54:51.642 NotebookApp] 本程序运行在: http://localhost:8888/?token=3a866b1a8f9318faf04a46a1e67c235e5d58b00037540ecd
+[I 11:54:51.642 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 11:54:51.643 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=3a866b1a8f9318faf04a46a1e67c235e5d58b00037540ecd
+[I 11:54:52.220 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[W 11:55:24.833 NotebookApp] Notebook TensorFlow.ipynb is not trusted
+[I 11:55:26.499 NotebookApp] Kernel started: a5c579d1-10d0-4b03-9c1e-9106626f4380
+[I 11:55:28.454 NotebookApp] Adapting to protocol v5.1 for kernel a5c579d1-10d0-4b03-9c1e-9106626f4380
+[I 11:57:26.449 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 12:03:26.458 NotebookApp] Saving file at /TensorFlow.ipynb
+2019-05-02 12:05:25.076052: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+[I 12:05:26.455 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 12:07:26.451 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 12:09:26.433 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 12:11:26.441 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 12:12:04.796 NotebookApp] Starting buffering for a5c579d1-10d0-4b03-9c1e-9106626f4380:2e7468c0e8ea4377af041af67c8b395a
+[I 12:12:21.455 NotebookApp] 302 GET /?token=c3e014771cec7d3187ca0271ce40c903b55db317b948cca1 (::1) 1.83ms
+[I 12:12:30.248 NotebookApp] Kernel started: ce50aa3a-2130-4c7f-b6db-17fd66e6896d
+[I 12:12:34.408 NotebookApp] Adapting to protocol v5.1 for kernel ce50aa3a-2130-4c7f-b6db-17fd66e6896d
+[I 12:14:30.272 NotebookApp] Saving file at /Dropout.ipynb
+[I 15:18:30.726 NotebookApp] Saving file at /Dropout.ipynb
+[I 15:20:30.217 NotebookApp] Saving file at /Dropout.ipynb
+[I 15:42:30.239 NotebookApp] Saving file at /Dropout.ipynb
+[I 15:43:31.435 NotebookApp] Starting buffering for ce50aa3a-2130-4c7f-b6db-17fd66e6896d:0eb6a637a69247d6922f9fe7f996697c
+[I 15:43:32.127 NotebookApp] Kernel restarted: ce50aa3a-2130-4c7f-b6db-17fd66e6896d
+[I 15:43:34.507 NotebookApp] Adapting to protocol v5.1 for kernel ce50aa3a-2130-4c7f-b6db-17fd66e6896d
+[I 15:43:34.510 NotebookApp] Restoring connection for ce50aa3a-2130-4c7f-b6db-17fd66e6896d:0eb6a637a69247d6922f9fe7f996697c
+[I 15:43:34.510 NotebookApp] Replaying 3 buffered messages
+[I 15:44:30.231 NotebookApp] Saving file at /Dropout.ipynb
+[I 15:48:30.215 NotebookApp] Saving file at /Dropout.ipynb
+[I 15:50:30.216 NotebookApp] Saving file at /Dropout.ipynb
+[I 15:52:30.230 NotebookApp] Saving file at /Dropout.ipynb
+[I 15:54:15.431 NotebookApp] Starting buffering for ce50aa3a-2130-4c7f-b6db-17fd66e6896d:0eb6a637a69247d6922f9fe7f996697c
+[W 15:54:23.132 NotebookApp] Notebook ConvolutionalNetworks.ipynb is not trusted
+[I 15:54:24.813 NotebookApp] Kernel started: bb79fa7b-aaa3-4515-9065-6a495db151cc
+[I 15:54:27.146 NotebookApp] Adapting to protocol v5.1 for kernel bb79fa7b-aaa3-4515-9065-6a495db151cc
+[I 15:56:24.930 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 16:36:27.365 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 22:26:38.261 NotebookApp] Starting buffering for bb79fa7b-aaa3-4515-9065-6a495db151cc:0e3a3d2f8d394e30957e3eb65a4a5449
+[I 15:23:07.487 NotebookApp] 302 GET /?token=3a866b1a8f9318faf04a46a1e67c235e5d58b00037540ecd (::1) 111.06ms
+[I 15:25:06.962 NotebookApp] Adapting to protocol v5.1 for kernel bb79fa7b-aaa3-4515-9065-6a495db151cc
+[I 15:29:06.784 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 15:37:06.792 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 15:39:06.777 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 15:41:06.773 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 15:43:06.784 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 15:57:07.038 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 15:59:07.028 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 16:11:07.047 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 16:17:06.773 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 16:19:06.790 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 16:23:06.766 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 16:33:06.789 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 16:57:06.823 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 16:59:06.792 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 17:07:06.773 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 17:19:06.832 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 17:25:06.764 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 17:27:06.762 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 17:29:06.775 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 17:31:06.769 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 17:33:10.362 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 17:35:06.782 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 17:37:06.756 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 17:39:06.764 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 18:07:06.798 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 18:09:06.757 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 18:11:06.752 NotebookApp] Saving file at /ConvolutionalNetworks.ipynb
+[I 18:16:01.427 NotebookApp] Starting buffering for bb79fa7b-aaa3-4515-9065-6a495db151cc:9996819368254d23843f80aaac6c7fcc
+[I 18:47:35.376 NotebookApp] 302 GET /?token=3a866b1a8f9318faf04a46a1e67c235e5d58b00037540ecd (::1) 20.03ms
+[I 18:47:41.446 NotebookApp] Adapting to protocol v5.1 for kernel a5c579d1-10d0-4b03-9c1e-9106626f4380
+[I 20:45:41.147 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 20:57:42.148 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:15:41.137 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:17:42.021 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:21:41.146 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:23:41.121 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:25:41.118 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:27:51.224 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:33:41.123 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:35:41.135 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:37:41.976 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:41:41.147 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:43:41.122 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:49:41.160 NotebookApp] Saving file at /TensorFlow.ipynb
+[I 21:50:52.367 NotebookApp] Kernel interrupted: a5c579d1-10d0-4b03-9c1e-9106626f4380

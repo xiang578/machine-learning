@@ -70,3 +70,5 @@
 2018-11-04 16:55:23.460748: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
 [I 16:56:57.948 NotebookApp] Saving file at /Recurrent-Neural-NetWork.ipynb
 [I 16:58:54.208 NotebookApp] Starting buffering for f9c5b05d-f567-4186-bb59-5b8aa4b43e74:359593ae1a2a43689c04b683eba82eb0
+[C 13:24:20.752 NotebookApp] 接受信号 15, 正在停止
+[I 13:24:22.280 NotebookApp] 关闭 1 服务
