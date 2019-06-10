@@ -187,7 +187,8 @@ class MultuplyGate(object):
 - 卷积神经网络
     - Fully Connected Layer 全连接层：这一层中所有的神经元链接在一起。
     - Convolution Layer：
-        - 通过参数共享来控制参数的数量。
+        - 通过参数共享来控制参数的数量。Parameter sharing
+        - Sparsity of connections
     - 卷积神经网络能学习到不同层次的输入信息
     - 常见的神经网络结构：`INPUT -> [[CONV -> RELU]*N -> POOL?]*M -> [FC -> RELU]*K -> FC`
     - 使用小的卷积核大小的优点：多个卷积层与非线性的激活层交替的结构，比单一卷积层的结构更能提取出深层的更好地特征。而且使用的参数也会更少
@@ -356,4 +357,18 @@ W^{[l]} = W^{[l]} - \alpha \frac{v^{corrected}_{dW^{[l]}}}{\sqrt{s^{corrected}_{
         
 ## 08. Deep learning software
 ## 09. CNN architectures
+
+- LeNet - 5 [1998]
+    - 60k 参数
+    - 深度加深，图片大小减少，通道数量增加
+    - ac: Sigmod/tanh
+- AlexNet [2012]
+    - (227,227,3) （原文错误）
+    - 60M 参数
+    - LRN：局部响应归一化，之后很少使用
+- VGG - 16 [2015]
+    - 138 M
+    - 结构不复杂，相对一致，图像缩小比例和通道增加数量有规律
+
+
 ## 10. Recurrent Neural networks
