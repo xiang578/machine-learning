@@ -30,7 +30,11 @@ print(sess.run(out))
 # Hint: Look up tf.case().
 ###############################################################################
 
-# YOUR CODE
+x = tf.random_uniform([], minval=-1, maxval=1)
+y = tf.random_uniform([], minval=-1, maxval=1)
+out = tf.case([(tf.less(x,y), lambda: x-y)], default=lambda: 0.0)
+print(sess.run(out))
+print(sess.run(out))
 
 ###############################################################################
 # 1c: Create the tensor x of the value [[0, -2, -1], [0, 1, 2]] 
@@ -39,7 +43,10 @@ print(sess.run(out))
 # Hint: Look up tf.equal().
 ###############################################################################
 
-# YOUR CODE
+x = tf.constant([[0, -2, -2], [0, 1, 2]])
+y = tf.zeros_like(x)
+out = tf.equal(x, y)
+print(sess.run(out))
 
 ###############################################################################
 # 1d: Create the tensor x of value 
@@ -54,7 +61,14 @@ print(sess.run(out))
 # Hint: Use tf.gather().
 ###############################################################################
 
-# YOUR CODE
+x = tf.constant([29.05088806,  27.61298943,  31.19073486,  29.35532951,
+ 30.97266006,  26.67541885,  38.08450317,  20.74983215,
+ 34.94445419,  34.45999146,  29.06485367,  36.01657104,
+ 27.88236427,  20.56035233,  30.20379066,  29.51215172,
+ 33.71149445,  28.59134293,  36.05556488,  28.66994858])
+y = tf.ones_like(x)
+out1 = tf.gather(x, tf.where(tf.greater(x, 30)))
+print(sess.run(out1))
 
 ###############################################################################
 # 1e: Create a diagnoal 2-d tensor of size 6 x 6 with the diagonal values of 1,
