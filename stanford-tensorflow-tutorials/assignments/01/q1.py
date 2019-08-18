@@ -76,7 +76,8 @@ print(sess.run(out1))
 # Hint: Use tf.range() and tf.diag().
 ###############################################################################
 
-# YOUR CODE
+out1 = tf.diag(tf.range(1, 7, 1))
+print(sess.run(out1))
 
 ###############################################################################
 # 1f: Create a random 2-d tensor of size 10 x 10 from any distribution.
@@ -84,7 +85,8 @@ print(sess.run(out1))
 # Hint: Look at tf.matrix_determinant().
 ###############################################################################
 
-# YOUR CODE
+out1 = tf.matrix_determinant(tf.random_uniform([10, 10], minval=-1, maxval=1))
+print(sess.run(out1))
 
 ###############################################################################
 # 1g: Create tensor x with value [5, 2, 3, 5, 10, 6, 2, 3, 4, 2, 1, 1, 0, 9].
@@ -92,7 +94,8 @@ print(sess.run(out1))
 # Hint: use tf.unique(). Keep in mind that tf.unique() returns a tuple.
 ###############################################################################
 
-# YOUR CODE
+out1 = tf.unique(tf.constant([5, 2, 3, 5, 10, 6, 2, 3, 4, 2, 1, 1, 0, 9]))
+print(sess.run(out1))
 
 ###############################################################################
 # 1h: Create two tensors x and y of shape 300 from any normal distribution,
@@ -104,4 +107,9 @@ print(sess.run(out1))
 # Hint: see the Huber loss function in the lecture slides 3.
 ###############################################################################
 
-# YOUR CODE
+x = tf.random_normal([300, 300])
+y = tf.random_normal([300, 300])
+average = tf.reduce_mean(x - y)
+def f1(): return tf.reduce_mean(tf.square(x - y))
+def f2(): return tf.reduce_sum(tf.abs(x - y))
+print(sess.run(tf.cond( average < 0, f1, f2)))
