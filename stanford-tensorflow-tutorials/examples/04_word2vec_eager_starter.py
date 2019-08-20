@@ -59,7 +59,7 @@ class Word2Vec(object):
                                              labels=target_words,
                                              inputs=embed,
                                              num_sampled=self.num_sampled,
-                                             num_classe=self.vocab_size))
+                                             num_classes=self.vocab_size))
         return loss
 
 
@@ -68,6 +68,7 @@ def gen():
 
 
 def main():
+
     dataset = tf.data.Dataset.from_generator(gen, (tf.int32, tf.int32), (tf.TensorShape([BATCH_SIZE]),
                                                                          tf.TensorShape([BATCH_SIZE, 1])))
     optimizer = tf.train.GradientDescentOptimizer(LEARNING_RATE)
