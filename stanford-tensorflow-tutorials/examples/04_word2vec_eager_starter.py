@@ -68,7 +68,7 @@ def main():
                                                                          tf.TensorShape([BATCH_SIZE, 1])))
     optimizer = tf.train.GradientDescentOptimizer(LEARNING_RATE)
     # Create the model
-    model = Word2Vec(VOCAB_SIZE, EMBED_SIZE, NUM_SAMPLED)
+    model = Word2Vec(vocab_size=VOCAB_SIZE, embed_size=EMBED_SIZE)
 
     # Create the gradients function, using `tfe.implicit_value_and_gradients`
     grad_fn = tfe.implicit_value_and_gradients(model.compute_loss)
