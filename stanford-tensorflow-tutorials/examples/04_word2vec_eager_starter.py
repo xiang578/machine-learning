@@ -54,8 +54,12 @@ class Word2Vec(object):
         embed = tf.nn.embedding_lookup(self.embed_matrix, center_words)
 
         # Compute the loss, using tf.reduce_mean and tf.nn.nce_loss
-        loss = tf.reduce_mean(tf.nn.nce_loss(self.nce_weight, self.nce_bias, embed, target_words,
-                                             self.num_sampled, self.vocab_size))
+        loss = tf.reduce_mean(tf.nn.nce_loss(weights=self.nce_weight,
+                                             biases=self.nce_bias,
+                                             labels=target_words,
+                                             inputs=embed,
+                                             num_sampled=self.num_sampled,
+                                             num_classe=self.vocab_size))
         return loss
 
 
