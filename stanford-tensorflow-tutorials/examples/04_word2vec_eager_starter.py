@@ -15,6 +15,7 @@ import tensorflow.contrib.eager as tfe
 
 import utils
 import word2vec_utils
+import math
 
 # Enable eager execution!
 tf.enable_eager_execution()
@@ -44,7 +45,7 @@ class Word2Vec(object):
         self.embed_matrix = tf.get_variable("embed_matrix", [vocab_size, embed_size], initializer=tf.zeros_initializer())
         self.nce_weight = tf.get_variable("nce_weight",
                                           initializer=tf.truncated_normal([vocab_size, embed_size],
-                                                                          stddev=1.0 / math.sqrt(embedding_size)))
+                                                                          stddev=1.0 / math.sqrt(EMBED_SIZE)))
         self.nce_bias = tf.get_variable("nce_bias", [vocab_size], initializer=tf.zeros_initializer())
 
     def compute_loss(self, center_words, target_words):
