@@ -83,6 +83,7 @@ def main():
             # Compute the loss and gradients, and take an optimization step.
             loss, grad = grad_fn(center_words, target_words)
             optimizer.apply_gradients(grad)
+            total_loss += loss
 
             if (num_train_steps + 1) % SKIP_STEP == 0:
                 print('Average loss at step {}: {:5.1f}'.format(
