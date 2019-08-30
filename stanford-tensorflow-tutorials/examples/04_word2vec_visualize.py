@@ -32,6 +32,7 @@ DOWNLOAD_URL = 'http://mattmahoney.net/dc/text8.zip'
 EXPECTED_BYTES = 31344016
 NUM_VISUALIZE = 3000        # number of tokens to visualize
 
+
 class SkipGramModel:
     """ Build the graph for word2vec model """
     def __init__(self, dataset, vocab_size, embed_size, batch_size, num_sampled, learning_rate):
@@ -165,18 +166,20 @@ class SkipGramModel:
             saver_embed = tf.train.Saver([embedding_var])
             saver_embed.save(sess, os.path.join(visual_fld, 'model.ckpt'), 1)
 
+
 def gen():
     yield from word2vec_utils.batch_gen(DOWNLOAD_URL, EXPECTED_BYTES, VOCAB_SIZE, 
                                         BATCH_SIZE, SKIP_WINDOW, VISUAL_FLD)
 
+
 def main():
-    dataset = tf.data.Dataset.from_generator(gen, 
-                                (tf.int32, tf.int32), 
-                                (tf.TensorShape([BATCH_SIZE]), tf.TensorShape([BATCH_SIZE, 1])))
+    dataset = tf.data.Dataset.from_generator(gen, (tf.int32, tf.int32),
+                                             (tf.TensorShape([BATCH_SIZE]), tf.TensorShape([BATCH_SIZE, 1])))
     model = SkipGramModel(dataset, VOCAB_SIZE, EMBED_SIZE, BATCH_SIZE, NUM_SAMPLED, LEARNING_RATE)
     model.build_graph()
     model.train(NUM_TRAIN_STEPS)
     model.visualize(VISUAL_FLD, NUM_VISUALIZE)
+
 
 if __name__ == '__main__':
     main()
