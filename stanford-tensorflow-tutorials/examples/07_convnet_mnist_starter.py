@@ -20,14 +20,17 @@ def conv_relu(inputs, filters, k_size, stride, padding, scope_name):
     #############################
     ########## TO DO ############
     #############################
-    return None
+    outputs = tf.layers.conv2d(inputs, filters=filters, kernel_size=k_size, strides=stride, padding=padding,
+                               name=scope_name, activation=tf.nn.relu())
+    return outputs
 
 def maxpool(inputs, ksize, stride, padding='VALID', scope_name='pool'):
     '''A method that does max pooling on inputs'''
     #############################
     ########## TO DO ############
     #############################
-    return None
+    outputs = tf.layers.max_pooling2d(inputs, pool_size=ksize, strides=stride, name=scope_name, padding=padding)
+    return outputs
 
 def fully_connected(inputs, out_dim, scope_name='fc'):
     '''
@@ -36,7 +39,8 @@ def fully_connected(inputs, out_dim, scope_name='fc'):
     #############################
     ########## TO DO ############
     #############################
-    return None
+    outputs = tf.layers.dense(inputs, name=scope_name, units=out_dim)
+    return outputs
 
 class ConvNet(object):
     def __init__(self):
@@ -48,6 +52,7 @@ class ConvNet(object):
         self.n_classes = 10
         self.skip_step = 20
         self.n_test = 10000
+        self.training = False
 
     def get_data(self):
         with tf.name_scope('data'):
@@ -68,7 +73,16 @@ class ConvNet(object):
         #############################
         ########## TO DO ############
         #############################
-        self.logits = None
+        conv1 = tf.layers.conv2d(inputs=self.img, filters=32, strides=[1, 1], kernel_size=[5, 5],
+                                 padding='SAME', activation=tf.nn.relu, name='conv1')
+        pool1 = tf.layers.max_pooling2d(inputs=conv1, pool_size=[2, 2], strides=2, name='pool1')
+        conv2 = tf.layers.conv2d(inputs=pool1, filters=64, strides=[1, 1], kernel_size=[5, 5],
+                                 padding='SAME', activation=tf.nn.relu, name='conv2')
+        pool2 = tf.layers.max_pooling2d(inputs=conv2, pool_size=[2, 2], strides=2, name='pool2')
+        fc_input = tf.reshape(pool2, (-1, 7*7*64))
+        fc1 = tf.layers.dense(inputs=fc_input, units=1024, name='fc1', activation=tf.nn.relu)
+        dp = tf.layers.dropout(fc1, rate=self.keep_prob, training=self.training, name='dropout')
+        self.logits = tf.layers.dense(inputs=dp, units=self.n_classes, activation=tf.nn.softmax, name='logits')
 
     def loss(self):
         '''
@@ -81,7 +95,7 @@ class ConvNet(object):
         #############################
         ########## TO DO ############
         #############################
-        self.loss = None
+        self.loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=self.label, logits=self.logits))
     
     def optimize(self):
         '''
@@ -92,7 +106,7 @@ class ConvNet(object):
         #############################
         ########## TO DO ############
         #############################
-        self.opt = None
+        self.opt = tf.train.AdamOptimizer(learning_rate=self.lr).minimize(self.loss, global_step=self.gstep)
 
     def summary(self):
         '''
@@ -102,7 +116,11 @@ class ConvNet(object):
         #############################
         ########## TO DO ############
         #############################
-        self.summary_op = None
+        with tf.name_scope('summaries'):
+            tf.summary.scalar('loss', self.loss)
+            tf.summary.scalar('accuracy', self.accuracy)
+            tf.summary.histogram('histogram loss', self.loss)
+            self.summary_op = tf.summary.merge_all()
         
     def eval(self):
         '''
