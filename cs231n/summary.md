@@ -18,14 +18,7 @@
    * [07. Training neural networks II](#07-training-neural-networks-ii)
    * [08. Deep learning software](#08-deep-learning-software)
    * [09. CNN architectures](#09-cnn-architectures)
-   * [10. Recurrent Neural networks](#10-recurrent-neural-networks)
-   * [11. Detection and Segmentation](#11-detection-and-segmentation)
-   * [12. Visualizing and Understanding](#12-visualizing-and-understanding)
-   * [13. Generative models](#13-generative-models)
-   * [14. Deep reinforcement learning](#14-deep-reinforcement-learning)
-   * [15. Efficient Methods and Hardware for Deep Learning](#15-efficient-methods-and-hardware-for-deep-learning)
-   * [16. Adversarial Examples and Adversarial Training](#16-adversarial-examples-and-adversarial-training)
-
+   
 ## Course Info
 
 - 主页: http://cs231n.stanford.edu/
@@ -324,6 +317,18 @@ class MultuplyGate(object):
         - ![](media/15499574039274.jpg)
         - `v_prev = v; v = mu * v - learning_rate * dx; x += -mu * v_prev + (1 + mu) * v`
     - AdaGrad
+
+       ```python
+      grad_squared = 0
+      while(True):
+        dx = compute_gradient(x)
+        
+        # here is a problem, the grad_squared isn't decayed (gets so large)
+        grad_squared += dx * dx			
+        
+        x -= (learning_rate*dx) / (np.sqrt(grad_squared) + 1e-7)
+      ```
+      
     - RMSProp
         - 自适应学习率方法
         - cache =  decay_rate * cache + (1 - decay_rate) * dx**2
@@ -349,15 +354,18 @@ W^{[l]} = W^{[l]} - \alpha \frac{v^{corrected}_{dW^{[l]}}}{\sqrt{s^{corrected}_{
         - $\varepsilon$ is a very small number to avoid dividing by zero
 
     - Learning decay
+        - 学习率随着训练变化，比如每一轮在前一轮的基础上减少一半。
         - 防止学习停止
     - Second order optimization
 - Regularization
+    - Dropout
+        - 每一轮中随机使部分神经元失活，减少模型对神经元的依赖，增强模型的鲁棒性。
 - Transfer learning
+    - CNN 中的人脸识别，可以在大型的模型基础上利用少量的相关图像进行继续训练。> 
         
-        
-## 08. Deep learning software
 ## 09. CNN architectures
 
+- 研究模型的方法：搞清楚每一层的输入和输出的大小关系。
 - LeNet - 5 [1998]
     - 60k 参数
     - 深度加深，图片大小减少，通道数量增加
@@ -369,6 +377,27 @@ W^{[l]} = W^{[l]} - \alpha \frac{v^{corrected}_{dW^{[l]}}}{\sqrt{s^{corrected}_{
 - VGG - 16 [2015]
     - 138 M
     - 结构不复杂，相对一致，图像缩小比例和通道增加数量有规律
+- ZFNet [2013]
+    - 在 AlexNet 的基础上修改
+        - `CONV1`: change from (11 x 11 stride 4) to (7 x 7 stride 2)
+        - `CONV3,4,5`: instead of 384, 384, 256 filters use 512, 1024, 512 
+- VGG [2014]
+    - 模型中只使用 3*3 conv：与 77 卷积有相同的感受野，而且可以将网络做得更深。比如每一层可以获取到原始图像的范围：第一层 33，第二层 55，第三层 77。
+    - 前面的卷积层参数量很少，模型中大部分参数属于底部的全连接层。
 
+![](media/15705415499052.jpg)
 
-## 10. Recurrent Neural networks
+- GoogLeNet
+    - 引入 `Inception module`
+        - design a good local network topology (network within a network) and then stack these modules on top of each other
+        - 该模块可以并行计算
+        - conv 和 pool 层进行 padding，最后将结果 concat 在一起
+
+![Reset](media/15705420412305.jpg)
+
+- ResNet
+    - 目标：深层模型表现不应该差于浅层模型，解决随着网络加深，准确率下降的问题。
+    - `Y = (W2* RELU(W1x+b1) + b2) + X`
+    - 如果网络已经达到最优，继续加深网络，residual mapping会被设置为 0，一直保存网络最优的情况。
+    
+
