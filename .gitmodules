@@ -1,3 +1,6 @@
 [submodule "code/bert"]
 	path = code/bert
 	url = git@github.com:xiang578/bert.git
+[submodule "code/DeepCTR"]
+	path = code/DeepCTR
+	url = git@github.com:xiang578/DeepCTR.git
