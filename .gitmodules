@@ -4,3 +4,6 @@
 [submodule "code/DeepCTR"]
 	path = code/DeepCTR
 	url = git@github.com:xiang578/DeepCTR.git
+[submodule "code/tensorflow"]
+	path = code/tensorflow
+	url = https://github.com/xiang578/tensorflow.git
